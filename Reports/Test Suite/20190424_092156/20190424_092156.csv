@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite,Chrome 73.0.3683.103,,,2019-04-24 09:22:09,2019-04-24 09:22:24,14.967s,PASSED
+,,,,,,,
+Test Cases/Demo,Chrome 73.0.3683.103,,,2019-04-24 09:22:09,2019-04-24 09:22:22,13.174s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,,2019-04-24 09:22:10,2019-04-24 09:22:13,3.094s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 73.0.3683.103,,,2019-04-24 09:22:13,2019-04-24 09:22:16,3.104s,PASSED
+"waitForElementClickable(findTestObject(""Login/btn_MakeAppointment""), 10)",Chrome 73.0.3683.103,,,2019-04-24 09:22:16,2019-04-24 09:22:16,0.132s,PASSED
+"click(findTestObject(""Login/btn_MakeAppointment""))",Chrome 73.0.3683.103,,,2019-04-24 09:22:16,2019-04-24 09:22:17,0.737s,PASSED
+"waitForElementClickable(findTestObject(""Login/button_Login""), 10)",Chrome 73.0.3683.103,,,2019-04-24 09:22:17,2019-04-24 09:22:17,0.087s,PASSED
+"setText(findTestObject(""Login/input__Username""), findTestData(""demotest"").getValue(""UserName"", 1))",Chrome 73.0.3683.103,,,2019-04-24 09:22:17,2019-04-24 09:22:18,0.921s,PASSED
+"UserName = getAttribute(findTestObject(""Login/input__Username""), ""value"")",Chrome 73.0.3683.103,,,2019-04-24 09:22:18,2019-04-24 09:22:18,0.041s,PASSED
+"verifyMatch(UserName, findTestData(""demotest"").getValue(""UserName"", 1), false)",Chrome 73.0.3683.103,,,2019-04-24 09:22:18,2019-04-24 09:22:18,0.072s,PASSED
+"setText(findTestObject(""Login/input__Password""), findTestData(""demotest"").getValue(""Password"", 1))",Chrome 73.0.3683.103,,,2019-04-24 09:22:18,2019-04-24 09:22:18,0.201s,PASSED
+"Password = getAttribute(findTestObject(""Login/input__Password""), ""value"")",Chrome 73.0.3683.103,,,2019-04-24 09:22:18,2019-04-24 09:22:18,0.030s,PASSED
+"verifyMatch(Password, findTestData(""demotest"").getValue(""Password"", 1), false)",Chrome 73.0.3683.103,,,2019-04-24 09:22:18,2019-04-24 09:22:18,0.051s,PASSED
+"click(findTestObject(""Login/button_Login""))",Chrome 73.0.3683.103,,,2019-04-24 09:22:18,2019-04-24 09:22:19,0.883s,PASSED
+"waitForElementPresent(findTestObject(""Input/select_Facility""), 10)",Chrome 73.0.3683.103,,,2019-04-24 09:22:19,2019-04-24 09:22:19,0.043s,PASSED
+"if (getNumberOfTotalOption(findTestObject(""Input/select_Facility"")) == 3)",Chrome 73.0.3683.103,,,2019-04-24 09:22:19,2019-04-24 09:22:20,0.717s,PASSED
+"if (findTestData(""demotest"").getValue(""ApplyForHospital"", 1) == ""Yes"")",Chrome 73.0.3683.103,,,2019-04-24 09:22:20,2019-04-24 09:22:20,0.184s,PASSED
+"switch (findTestData(""demotest"").getValue(""HealthcareProgram"", 1))",Chrome 73.0.3683.103,,,2019-04-24 09:22:20,2019-04-24 09:22:20,0.163s,PASSED
+"setText(findTestObject(""Input/input__VisitDate""), findTestData(""demotest"").getValue(""Date"", 1))",Chrome 73.0.3683.103,,,2019-04-24 09:22:20,2019-04-24 09:22:20,0.300s,PASSED
+"click(findTestObject(""Input/input__textComment""))",Chrome 73.0.3683.103,,,2019-04-24 09:22:20,2019-04-24 09:22:21,0.093s,PASSED
+"date = getAttribute(findTestObject(""Input/input__VisitDate""), ""value"")",Chrome 73.0.3683.103,,,2019-04-24 09:22:21,2019-04-24 09:22:21,0.056s,PASSED
+"verifyMatch(date, findTestData(""demotest"").getValue(""Date"", 1), false)",Chrome 73.0.3683.103,,,2019-04-24 09:22:21,2019-04-24 09:22:21,0.027s,PASSED
+"setText(findTestObject(""Input/input__textComment""), findTestData(""demotest"").getValue(""Comment"", 1))",Chrome 73.0.3683.103,,,2019-04-24 09:22:21,2019-04-24 09:22:21,0.122s,PASSED
+"Comment = getAttribute(findTestObject(""Input/input__textComment""), ""value"")",Chrome 73.0.3683.103,,,2019-04-24 09:22:21,2019-04-24 09:22:21,0.051s,PASSED
+"verifyMatch(Comment, findTestData(""demotest"").getValue(""Comment"", 1), false)",Chrome 73.0.3683.103,,,2019-04-24 09:22:21,2019-04-24 09:22:21,0.030s,PASSED
+"verifyElementClickable(findTestObject(""Input/button_Book Appointment""))",Chrome 73.0.3683.103,,,2019-04-24 09:22:21,2019-04-24 09:22:21,0.069s,PASSED
+"click(findTestObject(""Input/button_Book Appointment""))",Chrome 73.0.3683.103,,,2019-04-24 09:22:21,2019-04-24 09:22:21,0.503s,PASSED
+"waitForElementPresent(findTestObject(""Verify/verify__Facility""), 10)",Chrome 73.0.3683.103,,,2019-04-24 09:22:21,2019-04-24 09:22:21,0.021s,PASSED
+"verifyElementText(findTestObject(""Verify/verify__Facility""), findTestData(""demotest"").getValue(""Facility"", 1))",Chrome 73.0.3683.103,,,2019-04-24 09:22:21,2019-04-24 09:22:22,0.063s,PASSED
+"if (findTestData(""demotest"").getValue(""ApplyForHospital"", 1) == ""Yes"")",Chrome 73.0.3683.103,,,2019-04-24 09:22:22,2019-04-24 09:22:22,0.058s,PASSED
+"verifyElementText(findTestObject(""Verify/verify__HealthcareProgram""), findTestData(""demotest"").getValue(""HealthcareProgram"", 1))",Chrome 73.0.3683.103,,,2019-04-24 09:22:22,2019-04-24 09:22:22,0.063s,PASSED
+"verifyElementText(findTestObject(""Verify/verify__date""), findTestData(""demotest"").getValue(""Date"", 1))",Chrome 73.0.3683.103,,,2019-04-24 09:22:22,2019-04-24 09:22:22,0.088s,PASSED
+"verifyElementText(findTestObject(""Verify/verify__comment""), findTestData(""demotest"").getValue(""Comment"", 1))",Chrome 73.0.3683.103,,,2019-04-24 09:22:22,2019-04-24 09:22:22,0.044s,PASSED
+"click(findTestObject(""Input/btn_Go to Homepage""))",Chrome 73.0.3683.103,,,2019-04-24 09:22:22,2019-04-24 09:22:22,0.470s,PASSED
+"waitForElementClickable(findTestObject(""Login/btn_MakeAppointment""), 10)",Chrome 73.0.3683.103,,,2019-04-24 09:22:22,2019-04-24 09:22:22,0.034s,PASSED

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite" time="13" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite" tests="1" failures="0" errors="0" time="13" timestamp="2019-04-24 09:02:43" hostname="DESKTOP-86I6SJB$ - 192.168.94.128" id="Test Suites/Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Rick\\Katalon Studio\\Katalon Demo\\Reports\\Test Suite\\20190424_090228"/>
+         <property name="logFiles" value="C:\\Users\\Rick\\Katalon Studio\\Katalon Demo\\Reports\\Test Suite\\20190424_090228\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DESKTOP-86I6SJB$ - 192.168.94.128"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.2.2"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="192.168.94.128"/>
+         <property name="sessionId" value="64ac2534c5b4063d9768427c73beb6ac"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Demo" classname="Test Cases/Demo" status="PASSED">
+         <system-out><![CDATA[2019-04-24 09:02:43 - [TEST_CASE][PASSED] - Test Cases/Demo: Test Cases/Demo
+
+2019-04-24 09:02:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-24 09:02:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-24 09:02:44 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-24 09:02:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-24 09:02:47 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2019-04-24 09:02:50 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2019-04-24 09:02:50 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/btn_MakeAppointment"), 10): Object 'Object Repository/Login/btn_MakeAppointment' is clickable
+
+2019-04-24 09:02:50 - [MESSAGE][PASSED] - Object 'Object Repository/Login/btn_MakeAppointment' is clickable
+
+2019-04-24 09:02:50 - [TEST_STEP][PASSED] - click(findTestObject("Login/btn_MakeAppointment")): Object: 'Object Repository/Login/btn_MakeAppointment' is clicked on
+
+2019-04-24 09:02:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_MakeAppointment' is clicked on
+
+2019-04-24 09:02:51 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/button_Login"), 10): Object 'Object Repository/Login/button_Login' is clickable
+
+2019-04-24 09:02:51 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_Login' is clickable
+
+2019-04-24 09:02:51 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input__Username"), findTestData("demotest").getValue("UserName", 1)): Text 'John Doe' is set on object 'Object Repository/Login/input__Username'
+
+2019-04-24 09:02:52 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/input__Username'
+
+2019-04-24 09:02:52 - [TEST_STEP][PASSED] - UserName = getAttribute(findTestObject("Login/input__Username"), "value"): Attribute 'value' of object 'Object Repository/Login/input__Username' is: 'John Doe'
+
+2019-04-24 09:02:52 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Login/input__Username' is: 'John Doe'
+
+2019-04-24 09:02:52 - [TEST_STEP][PASSED] - verifyMatch(UserName, findTestData("demotest").getValue("UserName", 1), false): Actual text 'John Doe' and expected text 'John Doe' are matched 
+
+2019-04-24 09:02:52 - [MESSAGE][PASSED] - Actual text 'John Doe' and expected text 'John Doe' are matched 
+
+2019-04-24 09:02:52 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input__Password"), findTestData("demotest").getValue("Password", 1)): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/input__Password'
+
+2019-04-24 09:02:52 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/input__Password'
+
+2019-04-24 09:02:52 - [TEST_STEP][PASSED] - Password = getAttribute(findTestObject("Login/input__Password"), "value"): Attribute 'value' of object 'Object Repository/Login/input__Password' is: 'ThisIsNotAPassword'
+
+2019-04-24 09:02:52 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Login/input__Password' is: 'ThisIsNotAPassword'
+
+2019-04-24 09:02:52 - [TEST_STEP][PASSED] - verifyMatch(Password, findTestData("demotest").getValue("Password", 1), false): Actual text 'ThisIsNotAPassword' and expected text 'ThisIsNotAPassword' are matched 
+
+2019-04-24 09:02:52 - [MESSAGE][PASSED] - Actual text 'ThisIsNotAPassword' and expected text 'ThisIsNotAPassword' are matched 
+
+2019-04-24 09:02:52 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Login")): Object: 'Object Repository/Login/button_Login' is clicked on
+
+2019-04-24 09:02:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login' is clicked on
+
+2019-04-24 09:02:53 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Input/select_Facility"), 10): Object 'Object Repository/Input/select_Facility' is present
+
+2019-04-24 09:02:53 - [MESSAGE][PASSED] - Object 'Object Repository/Input/select_Facility' is present
+
+2019-04-24 09:02:53 - [TEST_STEP][PASSED] - if (getNumberOfTotalOption(findTestObject("Input/select_Facility")) == 3): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Input/select_Facility' 
+
+2019-04-24 09:02:53 - [MESSAGE][PASSED] - 3 options of object 'Object Repository/Input/select_Facility' counted
+
+2019-04-24 09:02:53 - [TEST_STEP][PASSED] - verifyOptionsPresent(findTestObject("Input/select_Facility"), ["Tokyo CURA Healthcare Center", "Hongkong CURA Healthcare Center", "Seoul CURA Healthcare Center"]): Options [Tokyo CURA Healthcare Center, Hongkong CURA Healthcare Center, Seoul CURA Healthcare Center] present.
+
+2019-04-24 09:02:53 - [MESSAGE][PASSED] - Options [Tokyo CURA Healthcare Center, Hongkong CURA Healthcare Center, Seoul CURA Healthcare Center] present.
+
+2019-04-24 09:02:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Input/select_Facility"), findTestData("demotest").getValue("Facility", 1), false): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Input/select_Facility' 
+
+2019-04-24 09:02:53 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Input/select_Facility' 
+
+2019-04-24 09:02:53 - [TEST_STEP][PASSED] - verifyOptionSelectedByValue(findTestObject("Input/select_Facility"), findTestData("demotest").getValue("Facility", 1), false, 10): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Input/select_Facility' 
+
+2019-04-24 09:02:53 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Input/select_Facility' 
+
+2019-04-24 09:02:53 - [TEST_STEP][PASSED] - if (findTestData("demotest").getValue("ApplyForHospital", 1) == "Yes"): Object 'Object Repository/Input/input_ApplyForHospital' is checked
+
+2019-04-24 09:02:53 - [TEST_STEP][PASSED] - check(findTestObject("Input/input_ApplyForHospital")): Object 'Object Repository/Input/input_ApplyForHospital' is checked
+
+2019-04-24 09:02:53 - [MESSAGE][PASSED] - Object 'Object Repository/Input/input_ApplyForHospital' is checked
+
+2019-04-24 09:02:53 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Input/input_ApplyForHospital"), 10): Object 'Object Repository/Input/input_ApplyForHospital' is checked
+
+2019-04-24 09:02:53 - [MESSAGE][PASSED] - Object 'Object Repository/Input/input_ApplyForHospital' is checked
+
+2019-04-24 09:02:53 - [TEST_STEP][PASSED] - switch (findTestData("demotest").getValue("HealthcareProgram", 1)): null
+
+2019-04-24 09:02:53 - [TEST_STEP][PASSED] - case "None":: null
+
+2019-04-24 09:02:53 - [TEST_STEP][PASSED] - check(findTestObject("Input/input__None_Programs")): Object 'Object Repository/Input/input__None_Programs' is checked
+
+2019-04-24 09:02:54 - [MESSAGE][PASSED] - Object 'Object Repository/Input/input__None_Programs' is checked
+
+2019-04-24 09:02:54 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Input/input__None_Programs"), 10): Object 'Object Repository/Input/input__None_Programs' is checked
+
+2019-04-24 09:02:54 - [MESSAGE][PASSED] - Object 'Object Repository/Input/input__None_Programs' is checked
+
+2019-04-24 09:02:54 - [TEST_STEP][PASSED] - break: null
+
+2019-04-24 09:02:54 - [TEST_STEP][PASSED] - setText(findTestObject("Input/input__VisitDate"), findTestData("demotest").getValue("Date", 1)): Text '09/04/2019' is set on object 'Object Repository/Input/input__VisitDate'
+
+2019-04-24 09:02:54 - [MESSAGE][PASSED] - Text '09/04/2019' is set on object 'Object Repository/Input/input__VisitDate'
+
+2019-04-24 09:02:54 - [TEST_STEP][PASSED] - click(findTestObject("Input/input__textComment")): Object: 'Object Repository/Input/input__textComment' is clicked on
+
+2019-04-24 09:02:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Input/input__textComment' is clicked on
+
+2019-04-24 09:02:54 - [TEST_STEP][PASSED] - date = getAttribute(findTestObject("Input/input__VisitDate"), "value"): Attribute 'value' of object 'Object Repository/Input/input__VisitDate' is: '09/04/2019'
+
+2019-04-24 09:02:54 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Input/input__VisitDate' is: '09/04/2019'
+
+2019-04-24 09:02:54 - [TEST_STEP][PASSED] - verifyMatch(date, findTestData("demotest").getValue("Date", 1), false): Actual text '09/04/2019' and expected text '09/04/2019' are matched 
+
+2019-04-24 09:02:54 - [MESSAGE][PASSED] - Actual text '09/04/2019' and expected text '09/04/2019' are matched 
+
+2019-04-24 09:02:54 - [TEST_STEP][PASSED] - setText(findTestObject("Input/input__textComment"), findTestData("demotest").getValue("Comment", 1)): Text 'test' is set on object 'Object Repository/Input/input__textComment'
+
+2019-04-24 09:02:54 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Input/input__textComment'
+
+2019-04-24 09:02:54 - [TEST_STEP][PASSED] - Comment = getAttribute(findTestObject("Input/input__textComment"), "value"): Attribute 'value' of object 'Object Repository/Input/input__textComment' is: 'test'
+
+2019-04-24 09:02:54 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Input/input__textComment' is: 'test'
+
+2019-04-24 09:02:54 - [TEST_STEP][PASSED] - verifyMatch(Comment, findTestData("demotest").getValue("Comment", 1), false): Actual text 'test' and expected text 'test' are matched 
+
+2019-04-24 09:02:54 - [MESSAGE][PASSED] - Actual text 'test' and expected text 'test' are matched 
+
+2019-04-24 09:02:54 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Input/button_Book Appointment")): Object 'Object Repository/Input/button_Book Appointment' is clickable
+
+2019-04-24 09:02:54 - [MESSAGE][PASSED] - Object 'Object Repository/Input/button_Book Appointment' is clickable
+
+2019-04-24 09:02:54 - [TEST_STEP][PASSED] - click(findTestObject("Input/button_Book Appointment")): Object: 'Object Repository/Input/button_Book Appointment' is clicked on
+
+2019-04-24 09:02:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Input/button_Book Appointment' is clicked on
+
+2019-04-24 09:02:55 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Verify/verify__Facility"), 10): Object 'Object Repository/Verify/verify__Facility' is present
+
+2019-04-24 09:02:55 - [MESSAGE][PASSED] - Object 'Object Repository/Verify/verify__Facility' is present
+
+2019-04-24 09:02:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Verify/verify__Facility"), findTestData("demotest").getValue("Facility", 1)): Actual text and expected text of test object 'Object Repository/Verify/verify__Facility' are matched.
+
+2019-04-24 09:02:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Verify/verify__Facility' are matched.
+
+2019-04-24 09:02:55 - [TEST_STEP][PASSED] - if (findTestData("demotest").getValue("ApplyForHospital", 1) == "Yes"): Actual text and expected text of test object 'Object Repository/Verify/verify__ApplyForHospitalReadmission' are matched.
+
+2019-04-24 09:02:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Verify/verify__ApplyForHospitalReadmission"), "Yes"): Actual text and expected text of test object 'Object Repository/Verify/verify__ApplyForHospitalReadmission' are matched.
+
+2019-04-24 09:02:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Verify/verify__ApplyForHospitalReadmission' are matched.
+
+2019-04-24 09:02:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Verify/verify__HealthcareProgram"), findTestData("demotest").getValue("HealthcareProgram", 1)): Actual text and expected text of test object 'Object Repository/Verify/verify__HealthcareProgram' are matched.
+
+2019-04-24 09:02:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Verify/verify__HealthcareProgram' are matched.
+
+2019-04-24 09:02:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Verify/verify__date"), findTestData("demotest").getValue("Date", 1)): Actual text and expected text of test object 'Object Repository/Verify/verify__date' are matched.
+
+2019-04-24 09:02:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Verify/verify__date' are matched.
+
+2019-04-24 09:02:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Verify/verify__comment"), findTestData("demotest").getValue("Comment", 1)): Actual text and expected text of test object 'Object Repository/Verify/verify__comment' are matched.
+
+2019-04-24 09:02:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Verify/verify__comment' are matched.
+
+2019-04-24 09:02:55 - [TEST_STEP][PASSED] - click(findTestObject("Input/btn_Go to Homepage")): Object: 'Object Repository/Input/btn_Go to Homepage' is clicked on
+
+2019-04-24 09:02:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Input/btn_Go to Homepage' is clicked on
+
+2019-04-24 09:02:56 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/btn_MakeAppointment"), 10): Object 'Object Repository/Login/btn_MakeAppointment' is clickable
+
+2019-04-24 09:02:56 - [MESSAGE][PASSED] - Object 'Object Repository/Login/btn_MakeAppointment' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-24 09:02:43 - [TEST_SUITE][PASSED] - Test Suite: Test Cases/Demo]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

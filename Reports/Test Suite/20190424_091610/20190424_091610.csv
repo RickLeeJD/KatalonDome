@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite,Chrome 73.0.3683.103,,,2019-04-24 09:16:24,2019-04-24 09:18:11,1m - 46.986s,FAILED
+,,,,,,,
+Test Cases/Demo,Chrome 73.0.3683.103,,,2019-04-24 09:16:24,2019-04-24 09:18:10,1m - 45.958s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.103,,,2019-04-24 09:16:25,2019-04-24 09:16:28,3.163s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 73.0.3683.103,,,2019-04-24 09:16:28,2019-04-24 09:16:28,0.312s,PASSED
+"waitForElementClickable(findTestObject(""Login/btn_MakeAppointment""), 10)",Chrome 73.0.3683.103,,,2019-04-24 09:16:28,2019-04-24 09:16:39,10.427s,PASSED
+"click(findTestObject(""Login/btn_MakeAppointment""))",Chrome 73.0.3683.103,,,2019-04-24 09:16:39,2019-04-24 09:18:10,1m - 31.171s,FAILED
